@@ -8,7 +8,7 @@ import Footer from './components/footer'
 import ErrorPage from './pages/errorpage'
 import { PortfolioProvider } from './context/context'
 
-
+//test
 
 const Root = () =>{
   return(
@@ -19,7 +19,7 @@ const Root = () =>{
     </>
   )
 }
-
+   
 
 function App() {
 
