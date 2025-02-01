@@ -1,0 +1,15 @@
+# Ignore all log files
+*.log
+
+# Ignore the node_modules folder (for Node.js projects)
+node_modules/
+
+# Ignore all .env files (for environment variables)
+*.env
+
+# Ignore OS-generated files (e.g., macOS)
+.DS_Store
+Thumbs.db
+
+# Ignore specific file
+/path/to/specific-file.txt
