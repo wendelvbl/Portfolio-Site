@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  font-family: sans-serif;
+  display: grid;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:  #eaeaeb;
+  font-family: "Noto Sans", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.content-wrapper{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+  line-height: 2rem;
+  background-color: #000000;
+}
+
+/*---------------------------------*/
+/* Header styles */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  grid-area: header;
+  position: fixed; 
+  margin-top: 2rem;
+  top: 0;
+  z-index: 10; 
+  width: 100%;
+  padding: 1rem 2rem;
+  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
+}
+
+.name {
+  padding-left: 2rem;
+  font-size: larger;
+  letter-spacing: 0.2em;
+  color: #fff;
+  text-shadow: 0 0 5px #484be9, 0 0 10px #484be9, 0 0 20px #484be9, 0 0 40px #484be9, 0 0 80px #484be9;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 3rem;
+  padding-right: 5rem;
+}
+
+.aNav {
+  font-size: medium;
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0 0 5px #484be9, 0 0 10px #484be9, 0 0 20px #484be9, 0 0 40px #484be9, 0 0 80px #484be9;
+  transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.aNav:hover {
+  transform: scale(1.2);
+}
+
+/*---------------------------------*/
+/* Main content area */
+main {
+  grid-area: main;
+  padding: 3rem;
+  margin-top: 6rem; 
+  position: fixed;
+}
+.BlogMain{
+  margin-top: 5rem;
+  position: fixed;
+}
+
+.ScrollBox {
+  max-height: 85vh; /* Set a max height to allow scrolling */
+  overflow-y: scroll; /* Keeps the content scrollable */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+  scrollbar-width: none; /* For Firefox */
+}
+.BlogScroll::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar in WebKit browsers (Chrome, Safari) */
+}
+/* Blog Post section */
+section {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+
+p {
+  color: white;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-left: 1rem;
+}
+
+/*--------------------*/
+/* Socials section */
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #484be9; /* LinkedIn blue */
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+span{
+  margin-left: 0.3rem;
+}
+
+.socials a:hover {
+  color: #e94848c9; /* Darker blue on hover */
+}
+
+.socials svg {
+  width: 24px;
+  height: 24px;
+  margin-left: 1rem;
+  fill: currentColor;
+  transition: transform 0.3s ease-in-out;
+}
+
+.socials a:hover svg {
+  transform: scale(1.1);
+}
+
+/*----------------------*/
+
+.BlogPost {
+  background-color: rgb(48, 47, 47);
+  padding: 0.5rem;
+  margin: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#tagFilter {
+  width: 100%;
+  max-width: 250px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-left: 0.5rem;
+}
+
+#tagFilter:hover {
+  border-color: #484be9;
+  background-color: rgba(72, 75, 233, 0.2);
+}
+
+#tagFilter:focus {
+  border-color: #7a7ff2;
+  background-color: rgba(72, 75, 233, 0.3);
+}
+
+#tagFilter::-ms-expand {
+  display: none;
+}
+#tagFilter option {
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  nav {
+    justify-content: center;
+    padding-right: 0;
+    gap: 1.5rem;
+  }
+
+  .name {
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .aNav {
+    font-size: 1.2rem;
+  }
+
+  main {
+    padding: 2rem;
+    margin-top: 5rem;
+  }
+
+  .ScrollBox {
+    max-height: 70vh;
+  }
+
+  .BlogPost {
+    padding: 1rem;
+  }
+
+  .socials {
+    flex-direction: column;
+    gap: 10px;
+  }
+  #tagbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  #tagFilter {
+    display: block;
+    width: 100%;
+    max-width: none;
+    padding: 1rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  header{
+    margin-top: 0.5rem;
+    padding: 0;
+    padding-top: 0.5rem;
+    align-content: center;
+    width: 100%;
+  }
+  section{
+    margin-bottom: 0.2rem;
+    padding: 0.3rem;
+  }
+
+  nav{
+    margin:0.2rem
+  }
+  .name {
+    font-size: 1.2rem;
+  }
+
+  .aNav {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .ScrollBox {
+    max-height: 80vh;
+  }
+  #tagbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  #tagFilter {
+    display: block;
+    width: 100%;
+    max-width: none;
+    padding: 1rem;
+    margin: 0;
+  }
+  
+  
+}
