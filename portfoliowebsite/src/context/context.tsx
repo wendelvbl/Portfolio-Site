@@ -58,43 +58,19 @@ export const PortfolioProvider = ({ children }: { children: React.ReactNode }) =
 const dummyPosts: BlogPost[] = [
   {
     id: 1,
-    date: "2024-01-15",
-    title: "Learning TypeScript Basics",
+    date: "2025-02-03",
+    title: "Starting my interschip at UniPartners",
     message:
-      "TypeScript is a powerful tool for developers. It adds type safety to JavaScript, making it easier to write reliable and maintainable code.",
-    tags: ["JavaScript", "TypeScript", "Easy"],
+      "My first week at Unipartners reinforced my initial expectation that I still have a long way to go and a lot to learn. The week started off at a good pace—I was introduced to their codebase and given a project of my own to build, with the support and guidance of my mentor.", 
+    tags: ["JavaScript","Februari" ],
   },
   {
     id: 2,
-    date: "2024-02-01",
-    title: "Understanding React Hooks",
+    date: "2025-02-6",
+    title: "Reflection after week 1",
     message:
-      "React hooks, like useState and useEffect, help developers manage state and side effects in functional components, making code more readable and reusable.",
-    tags: ["React", "Hooks", "Medium"],
-  },
-  {
-    id: 3,
-    date: "2024-03-10",
-    title: "CSS Grid: A Game Changer",
-    message:
-      "CSS Grid provides a powerful way to create complex layouts with minimal code, making web design more flexible and dynamic than ever.",
-    tags: ["CSS", "Grid", "Easy"],
-  },
-  {
-    id: 4,
-    date: "2024-04-05",
-    title: "Exploring Web Accessibility",
-    message:
-      "Web accessibility ensures that websites are usable by people with disabilities, providing an inclusive experience for all users.",
-    tags: ["Accessibility", "Web Design", "Medium"],
-  },
-  {
-    id: 5,
-    date: "2024-05-20",
-    title: "The Importance of Version Control",
-    message:
-      "Version control systems like Git help developers track changes to their code, collaborate with others, and manage different versions of a project.",
-    tags: ["Git", "Version Control", "Hard"],
+      "All in all, I'm happy with my performance this week. I managed to get started on the front end of my project, which I suspect is about 75% complete. I built a landing page where freelancers will eventually be able to enter their logged hours and extra expenses. The main new technologies I worked with were SCSS and Prettier. ",
+    tags: ["React", "SCSS", "Februari"],
   },
 ];
 
