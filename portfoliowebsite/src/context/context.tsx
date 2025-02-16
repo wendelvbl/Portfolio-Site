@@ -72,6 +72,14 @@ const dummyPosts: BlogPost[] = [
       "All in all, I'm happy with my performance this week. I managed to get started on the front end of my project, which I suspect is about 75% complete. I built a landing page where freelancers will eventually be able to enter their logged hours and extra expenses. The main new technologies I worked with were SCSS and Prettier. ",
     tags: ["React", "SCSS", "Februari"],
   },
+  {
+    id: 3,
+    date: "2025-02-14",
+    title: "Reflection after week 2",
+    message:
+      "The second week flew by in an instant! I learned a lot of new things, mainly related to authentication. Some of the key tasks I worked on included generating JWT tokens, saving them to a database, and using a CRON job for the first time to send emails. I also authenticated those tokens when they were used. One major takeaway is that I need to focus more on testing. I wrote too much code before verifying that everything worked as expected, which led to me spending three-quarters of Wednesday debugging. All in all, a successful week!",
+    tags: ["back-end", "node", "Februari"],
+  },
 ];
 
 export default dummyPosts;
