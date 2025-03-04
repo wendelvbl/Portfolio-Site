@@ -87,6 +87,13 @@ const dummyPosts: BlogPost[] = [
     message:"The third week went by just as fast! This time, I focused on optimizing my CSS and improving the responsiveness of my project. I also designed an email layout for a mail, which was a fun challenge. On the backend, I created a POST API controller, making sure everything worked smoothly. Another big highlight was working with Redux, a state management tool that helped streamline data flow in my project. One key takeaway is that proper state management can make a huge difference in maintaining clean and efficient code. Overall, a productive and insightful week!",
     tags: ["back-end", "node", "Februari","front-end"],
   },
+  {
+    id: 5,
+    date : "2525-02-29",
+    title:"Reflection after week 4",
+    message:"This week, we set up a POST endpoint for adding timesheets, modified the database, and fixed bugs. The form builder has been further developed, and the forwarded data to the front end has been improved. Additionally, we designed an email template, added extra 404 and redirect components, and worked on visual updates and responsiveness. We also planned the API data structure for specific forms and further optimized the thank-you page and back end."
+    ,tags : ["back-end", "node", "Februari","front-end"]
+  }
 ];
 
 export default dummyPosts;
