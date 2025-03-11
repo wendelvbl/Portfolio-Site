@@ -89,11 +89,19 @@ const dummyPosts: BlogPost[] = [
   },
   {
     id: 5,
-    date : "2525-02-29",
+    date : "2025-02-29",
     title:"Reflection after week 4",
     message:"This week, we set up a POST endpoint for adding timesheets, modified the database, and fixed bugs. The form builder has been further developed, and the forwarded data to the front end has been improved. Additionally, we designed an email template, added extra 404 and redirect components, and worked on visual updates and responsiveness. We also planned the API data structure for specific forms and further optimized the thank-you page and back end."
     ,tags : ["back-end", "node", "Februari","front-end"]
-  }
+  },
+    {
+        id: 6,
+        date: "2025-03-07",
+        title: "Reflection week 5",
+        message:"Over the past week, we’ve been working on refactoring and improving our freelancer token management system. Here’s a breakdown of the progress so far: Monday (3/03): We focused on refactoring the backend and optimizing queries related to freelancers. Additional data for the previous month was added to emails and the front-end. We also created a new API endpoint and service to allow manual token generation. Tuesday (4/03): The front-end underwent a major refactoring to align with the new backend changes. Work continued on the query for manually requesting tokens, ensuring efficiency and accuracy. Additionally, we conducted a code review to maintain clean and maintainable code. Wednesday (5/03): A new modal was introduced, allowing users to request tokens manually. This required adding an extra form in the front-end and creating a dedicated route for processing requests. Middleware was also implemented to handle authentication and validation. The front-end modal design was finalized to ensure a smooth user experience. Thursday (6/03): Work continued on the extra modal route, refining its functionality and integrating it with the back-end. Additionally, we implemented email notifications for token requests. The controller and route handling these requests were completed, ensuring that tokens could be issued efficiently. These improvements will provide freelancers with a smoother, more flexible way to manage tokens while keeping the system scalable and maintainable. 🚀"
+        ,tags : ["back-end", "node", "March","front-end","Refactoring"]
+    }
+    
 ];
 
 export default dummyPosts;
