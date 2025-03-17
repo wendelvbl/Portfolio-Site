@@ -100,6 +100,13 @@ const dummyPosts: BlogPost[] = [
         title: "Reflection week 5",
         message:"Over the past week, we’ve been working on refactoring and improving our freelancer token management system. Here’s a breakdown of the progress so far: Monday (3/03): We focused on refactoring the backend and optimizing queries related to freelancers. Additional data for the previous month was added to emails and the front-end. We also created a new API endpoint and service to allow manual token generation. Tuesday (4/03): The front-end underwent a major refactoring to align with the new backend changes. Work continued on the query for manually requesting tokens, ensuring efficiency and accuracy. Additionally, we conducted a code review to maintain clean and maintainable code. Wednesday (5/03): A new modal was introduced, allowing users to request tokens manually. This required adding an extra form in the front-end and creating a dedicated route for processing requests. Middleware was also implemented to handle authentication and validation. The front-end modal design was finalized to ensure a smooth user experience. Thursday (6/03): Work continued on the extra modal route, refining its functionality and integrating it with the back-end. Additionally, we implemented email notifications for token requests. The controller and route handling these requests were completed, ensuring that tokens could be issued efficiently. These improvements will provide freelancers with a smoother, more flexible way to manage tokens while keeping the system scalable and maintainable. 🚀"
         ,tags : ["back-end", "node", "March","front-end","Refactoring"]
+    },
+     {
+        id: 7,
+        date: "2025-03-14",
+        title: "Reflection week 6",
+        message:"Over the past weeks, we’ve made significant progress on our project. We’ve refactored the back end, optimized queries, and added extra APIs. The front end saw a new modal, improved validation, and a light/dark switch. We also streamlined the manual token request process and enhanced admin messaging. After thorough reviews and feedback sessions, we’re ready for the next phase! 🚀"
+        ,tags : ["SCSS", "React", "March","front-end","Refactoring"]
     }
     
 ];
