@@ -107,7 +107,15 @@ const dummyPosts: BlogPost[] = [
         title: "Reflection week 6",
         message:"Over the past weeks, we’ve made significant progress on our project. We’ve refactored the back end, optimized queries, and added extra APIs. The front end saw a new modal, improved validation, and a light/dark switch. We also streamlined the manual token request process and enhanced admin messaging. After thorough reviews and feedback sessions, we’re ready for the next phase! 🚀"
         ,tags : ["SCSS", "React", "March","front-end","Refactoring"]
-    }
+    },
+    {
+    id: 8,
+    date: "2025-03-21",
+    title: "Refactoring & Enhancements",
+    message: "This week, we focused on refining both the front end and back end. We aligned UI components, added extra fields, and improved mail layout. Additionally, we tackled an admin route bug and planned the moving-mission project. Exciting progress ahead! 🚀",
+    tags: ["Refactoring", "React", "Back-end", "UI", "Bug Fix"]
+}
+
     
 ];
 
