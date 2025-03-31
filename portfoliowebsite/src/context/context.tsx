@@ -114,7 +114,15 @@ const dummyPosts: BlogPost[] = [
     title: "Refactoring & Enhancements",
     message: "This week, we focused on refining both the front end and back end. We aligned UI components, added extra fields, and improved mail layout. Additionally, we tackled an admin route bug and planned the moving-mission project. Exciting progress ahead! 🚀",
     tags: ["Refactoring", "React", "Back-end", "UI", "Bug Fix"]
-}
+    },
+    {
+    "id": 9,
+    "date": "2025-03-28",
+    "title": "Moving-Mission & Points Calculation",
+    "message": "Deze week werkten we aan de moving-mission service, validatie van workouts en freeze costs, en herberekening van gebruikerspunten. Daarnaast hebben we de calculate all points service afgerond en een evaluatie met meneer Van de Poel gehouden. 🚀",
+    "tags": ["Moving-Mission", "Back-end", "Validation", "Points Calculation"]
+    }
+
 
     
 ];
