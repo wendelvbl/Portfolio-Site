@@ -121,7 +121,23 @@ const dummyPosts: BlogPost[] = [
     "title": "Moving-Mission & Points Calculation",
     "message": "Deze week werkten we aan de moving-mission service, validatie van workouts en freeze costs, en herberekening van gebruikerspunten. Daarnaast hebben we de calculate all points service afgerond en een evaluatie met meneer Van de Poel gehouden. 🚀",
     "tags": ["Moving-Mission", "Back-end", "Validation", "Points Calculation"]
-    }
+    },
+    {
+  "id": 10,
+  "date": "2025-04-03",
+  "title": "Moving-Mission: Backend Logica & Front-end Koppeling",
+  "message": "Deze week werd het puntensysteem binnen de Moving-Mission service volledig herwerkt en correct gekoppeld aan de database. Er werd privacylogica toegevoegd aan de route die later afbeeldingen zal aanleveren aan de front-end. Ook is gestart met het opzetten van Redux stores en het verbinden van dynamische data tussen back- en front-end. Tot slot werd de leaderboard uitgewerkt en gekoppeld aan dynamische backendgegevens. Alles staat klaar om gegevens netjes te visualiseren. 💪",
+  "tags": ["Moving-Mission", "Back-end", "Front-end", "Privacy", "Leaderboard", "Redux"]
+},
+    {
+  "id": 12,
+  "date": "2025-04-10",
+  "title": "UI Redesign & Deadline Focus – Moving-Mission",
+  "message": "Deze week stond in het teken van verfijning en visuele verbeteringen. De prestatiepagina kreeg een volledige restyling met als nieuw idee: medailles weergeven met een goudkleurige gradient in plaats van vlakke kleuren. Verder werd er hard gewerkt aan de front-end van Moving-Mission in aanloop naar de deadline die voor volgende week dinsdag werd vooropgesteld. Het leaderboard werd opnieuw ontworpen met een frisse layout en verbeterde modal. Ten slotte werd de homepage uitgebreid met een gepagineerde infinite scroll feed om content gebruiksvriendelijker te laden. 🔥🎯",
+  "tags": ["Moving-Mission", "Front-end", "UI/UX", "Leaderboard", "Deadline", "Infinite Scroll"]
+}
+
+
 
 
     
