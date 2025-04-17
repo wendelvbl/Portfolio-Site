@@ -135,7 +135,15 @@ const dummyPosts: BlogPost[] = [
   "title": "UI Redesign & Deadline Focus – Moving-Mission",
   "message": "Deze week stond in het teken van verfijning en visuele verbeteringen. De prestatiepagina kreeg een volledige restyling met als nieuw idee: medailles weergeven met een goudkleurige gradient in plaats van vlakke kleuren. Verder werd er hard gewerkt aan de front-end van Moving-Mission in aanloop naar de deadline die voor volgende week dinsdag werd vooropgesteld. Het leaderboard werd opnieuw ontworpen met een frisse layout en verbeterde modal. Ten slotte werd de homepage uitgebreid met een gepagineerde infinite scroll feed om content gebruiksvriendelijker te laden. 🔥🎯",
   "tags": ["Moving-Mission", "Front-end", "UI/UX", "Leaderboard", "Deadline", "Infinite Scroll"]
+},
+    {
+  "id": 13,
+  "date": "2025-04-17",
+  "title": "Medaille Vereisten & Sociaal Pagina – Verfijning en Uitdagingen",
+  "message": "Vandaag stond in het teken van het perfectioneren van de medaillevereisten en het verbeteren van de visuele aspecten van de prestaties. De medailles kregen een herstijl, met draaiende ribbons bovenop en informatieve achterkanten die de betekenis van de behaalde prestaties uitleggen. Een subtiele toevoeging die de gebruikerservaring versterkt door niet alleen de visuele uitstraling te verbeteren, maar ook context te bieden over de behaalde successen. 🎖️💫\n\nDaarnaast heb ik flink gewerkt aan de sociaal pagina. Na veel nadenken en strategiseren over hoe deze pagina het beste vorm te geven, heb ik de nodige back-end routes toegevoegd en verschillende front-end aanpassingen doorgevoerd. Helaas stuitte ik op een probleem met de onClick functie, wat me enige tijd kostte om op te lossen. Dit bleek een kleine maar frustrerende uitdaging, maar het was uiteindelijk de moeite waard om de pagina optimaal werkend te krijgen.\n\nIn de komende dagen zal ik verder werken aan het fine-tunen van deze elementen en nieuwe functionaliteiten toevoegen om de ervaring voor de gebruikers nog beter te maken. 💻🚀",
+  "tags": ["Medaille", "Sociaal Pagina", "UI/UX", "Back-end", "Front-end", "Probleemoplossing", "Ontwikkeling"]
 }
+
 
 
 
