@@ -142,7 +142,15 @@ const dummyPosts: BlogPost[] = [
   "title": "Medaille Vereisten & Sociaal Pagina – Verfijning en Uitdagingen",
   "message": "Vandaag stond in het teken van het perfectioneren van de medaillevereisten en het verbeteren van de visuele aspecten van de prestaties. De medailles kregen een herstijl, met draaiende ribbons bovenop en informatieve achterkanten die de betekenis van de behaalde prestaties uitleggen. Een subtiele toevoeging die de gebruikerservaring versterkt door niet alleen de visuele uitstraling te verbeteren, maar ook context te bieden over de behaalde successen. 🎖️💫\n\nDaarnaast heb ik flink gewerkt aan de sociaal pagina. Na veel nadenken en strategiseren over hoe deze pagina het beste vorm te geven, heb ik de nodige back-end routes toegevoegd en verschillende front-end aanpassingen doorgevoerd. Helaas stuitte ik op een probleem met de onClick functie, wat me enige tijd kostte om op te lossen. Dit bleek een kleine maar frustrerende uitdaging, maar het was uiteindelijk de moeite waard om de pagina optimaal werkend te krijgen.\n\nIn de komende dagen zal ik verder werken aan het fine-tunen van deze elementen en nieuwe functionaliteiten toevoegen om de ervaring voor de gebruikers nog beter te maken. 💻🚀",
   "tags": ["Medaille", "Sociaal Pagina", "UI/UX", "Back-end", "Front-end", "Probleemoplossing", "Ontwikkeling"]
+},
+{
+  "id": 14,
+  "date": "2025-04-24",
+  "title": "Implementatie Medailles – Structuur, Connecties en Testfase",
+  "message": "De afgelopen dagen stonden volledig in het teken van de implementatie van het nieuwe medaillesysteem. 🛠️\n\nOp 21 april begon ik met het opzetten van de basis: het maken van de nodige tabellen en het uitdenken van het systeem waarmee gebruikers medailles kunnen verdienen. Dit vroeg om veel denkwerk, zodat het niet alleen logisch maar ook schaalbaar en onderhoudbaar zou zijn.\n\nVervolgens heb ik op 22 april de back-end routes en controllers opgezet om alle data rondom medailles goed te kunnen beheren. Hierbij lag de nadruk op een stevige structuur, zodat uitbreidingen later probleemloos mogelijk zijn.\n\nOp 23 april was het tijd om de front-end aan te passen: zorgen dat alles effectief data uit de database haalt. Ik heb nieuwe Redux stores aangemaakt, actions geschreven en enkele bestaande controllers aangepast om een vlotte en correcte gegevensstroom te garanderen.\n\nVandaag, 24 april, heb ik het medaillesysteem afgewerkt en uitvoerig getest met de zes medailles die al in de databank stonden. Tijdens deze fase heb ik ook bepaalde controllers herwerkt zodat er geen directe data vanuit de front-end zonder validatie in de database terechtkomt – een belangrijke stap om de veiligheid en betrouwbaarheid van het systeem te waarborgen.\n\nDe komende tijd ga ik verder met uitbreidingen en verfijningen, zodat het medaillesysteem niet alleen functioneel is, maar ook een echt motiverend element binnen de applicatie vormt. 🏅✨",
+  "tags": ["Medailles", "Back-end", "Front-end", "Redux", "Database", "Validatie", "Ontwikkeling"]
 }
+
 
 
 
